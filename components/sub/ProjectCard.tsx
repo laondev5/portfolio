@@ -1,14 +1,17 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 interface Props {
   src: string;
   title: string;
   description: string;
+  url: string;
 }
 
-const ProjectCard = ({ src, title, description }: Props) => {
+const ProjectCard = ({ src, title, description, url }: Props) => {
   return (
+    <Link href={url}>
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
         src={src}
@@ -23,6 +26,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
         <p className="mt-2 text-gray-300">{description}</p>
       </div>
     </div>
+    </Link>
   );
 };
 

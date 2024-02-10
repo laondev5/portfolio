@@ -38,7 +38,7 @@ const HeroContent = () => {
               {" "}
               the best{" "}
             </span>
-            project exprience
+            web exprience
           </span>
         </motion.div>
 
