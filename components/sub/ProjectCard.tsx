@@ -7,12 +7,14 @@ interface Props {
   title: string;
   description: string;
   url: string;
+  key:any;
 }
 
-const ProjectCard = ({ src, title, description, url }: Props) => {
+const ProjectCard = ({ src, title, description, url, key }: Props) => {
   return (
-    <Link href={url}>
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+    
+    <div key={key} className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+      <Link href={url} >
       <Image
         src={src}
         alt={title}
@@ -20,13 +22,16 @@ const ProjectCard = ({ src, title, description, url }: Props) => {
         height={1000}
         className="w-full object-contain"
       />
-
+      </Link>
       <div className="relative p-4">
+        <Link href={url}>
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
+        </Link>
         <p className="mt-2 text-gray-300">{description}</p>
       </div>
+     
     </div>
-    </Link>
+   
   );
 };
 
