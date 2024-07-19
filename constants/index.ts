@@ -258,32 +258,42 @@ export const Skill_data = [
   {name:"Subsync",
   link:"https://subsync-newsletter-git-develop-highfee.vercel.app/",
   image:"/p6.png",
-  description:"A plateform where you can get all the latest newsletter and follow you favourite brand and also brans can create and account to upload their own newsletter"
+  description:"A platform where you can get all the latest newsletter and follow you favourite brand and also brans can create and account to upload their own newsletter"
 },
 {name:"Portfolio",
   link:"https://portfolio-chi-wheat-77.vercel.app/",
   image:"/p1.png",
   description:"My portfolio website that shows my skills and the project i have worked on"
 },
-{name:"wowi",
-  link:"https://wowi.vercel.app/",
-  image:"/p2.png",
-  description:"A plateform for fitness and execise that allow people to search for different types of execise based on body part and can also get video showing then how to go about the execise"
-},
+// {name:"wowi",
+//   link:"https://wowi.vercel.app/",
+//   image:"/p2.png",
+//   description:"A platform for fitness and execise that allow people to search for different types of execise based on body part and can also get video showing then how to go about the execise"
+// },
 {name:"Annim",
   link:"https://annim.vercel.app/",
   image:"/p3.png",
-  description:"Annim is a platefore wher you can get different types of animation moview"
+  description:"Annim is a platform where you can get different types of animation moview"
 },
 {name:"Buker",
   link:"https://buker.vercel.app/",
   image:"/p7.png",
-  description:"Buker is a plateform where you can book a place to stay anywhere in the world and it uses webscraper to get details on the place"
+  description:"Buker is a platform where you can book a place to stay anywhere in the world and it uses webscraper to get details on the place"
 },
 {name:"Brandsqure",
   link:"https://brandsqure.com/",
   image:"/p4.png",
   description:"Brandsqure is a digital agency website"
+},
+{name:"Propout",
+  link:"https://propout.xyz/",
+  image:"/p10.png",
+  description:"Propout is a web3 and blockchain startup that focus on assert management and sells with blockchain"
+},
+{name:"Skilldesk",
+  link:"https://skildesk.com/",
+  image:"/p11.png",
+  description:"Skilldesk is a platform that connect best talent with the best jobs"
 },
  ] 
   
