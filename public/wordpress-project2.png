@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sylver-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sylver-gradient)"/>
+  <circle cx="200" cy="120" r="40" fill="#f39c12" opacity="0.9"/>
+  <path d="M180 110 L220 110 L210 130 L190 130 Z" fill="#2c3e50"/>
+  <rect x="190" y="130" width="20" height="10" fill="#2c3e50"/>
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Sylvertech</text>
+  <text x="200" y="210" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16">Power Solutions</text>
+  <text x="200" y="240" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.8">WordPress Site</text>
+</svg>

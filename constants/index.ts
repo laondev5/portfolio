@@ -78,7 +78,41 @@ export const Skill_data = [
       height: 40,
     },
   
-  ];
+  ] 
+
+export const wordpressProjects = [
+  {
+    name: "Living Faith Foundation",
+    link: "https://livingfaithfoundation.org",
+    image: "/wp1.png",
+    description: "A faith-based organization website built with WordPress, featuring donation systems and community engagement features."
+  },
+  {
+    name: "Sylvertech",
+    link: "https://sylvertech.barekorganization.com/",
+    image: "/wp2.png",
+    description: "A technology services website showcasing repair and maintenance solutions with modern WordPress design."
+  },
+  {
+    name: "Barek Organization",
+    link: "https://barekorganization.com/",
+    image: "/wp4.png",
+    description: "A charity foundation website focused on health, education and empowerment with WordPress CMS."
+  },
+  {
+    name: "Brandsquare Store",
+    link: "https://brandsquare.store/",
+    image: "/wp5.png",
+
+    description: "An e-commerce platform built with WordPress and WooCommerce for vendor management and product ordering."
+  },
+  {
+    name: "Deno Hotel",
+    link: "https://www.deno-hotel.com/",
+    image: "/wp3.png",
+    description: "A luxury hotel booking website with WordPress, featuring room reservations and guest management systems."
+  }
+];
   
   export const Socials = [
     {
@@ -206,6 +240,12 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
+    {
+      skill_name: "WordPress",
+      Image: "/wordpress.png",
+      width: 70,
+      height: 70,
+    },
     // {
     //   skill_name: "Graphql",
     //   Image: "/graphql.png",
@@ -295,7 +335,7 @@ export const Skill_data = [
   image:"/p11.png",
   description:"Skilldesk is a platform that connect best talent with the best jobs"
 },
- ] 
+ ]
   
   
   

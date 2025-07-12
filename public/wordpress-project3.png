@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="barek-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#barek-gradient)"/>
+  <circle cx="200" cy="120" r="40" fill="white" opacity="0.9"/>
+  <path d="M185 105 Q200 95 215 105 Q200 115 185 105" fill="#27ae60"/>
+  <circle cx="190" cy="120" r="3" fill="#27ae60"/>
+  <circle cx="200" cy="120" r="3" fill="#27ae60"/>
+  <circle cx="210" cy="120" r="3" fill="#27ae60"/>
+  <path d="M185 135 Q200 145 215 135" fill="#27ae60" stroke="none"/>
+  <text x="200" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Barek</text>
+  <text x="200" y="210" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18">Organization</text>
+  <text x="200" y="240" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" opacity="0.8">WordPress Site</text>
+</svg>
